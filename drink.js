@@ -1,0 +1,9 @@
+auto.waitFor();
+app.launchApp("水联天下");
+text("点我开始喝水>>>").waitFor();
+className("android.view.View").text("点我开始喝水>>>").findOne().clickCenter();
+text("开始").waitFor();
+text("开始").findOne().clickCenter();
+text("结束").waitFor();
+toast("成功启动饮水机");
+home();
